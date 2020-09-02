@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Design
+
+### Color Palette
+https://colorhunt.co/palette/22272
+
 ## Available Scripts
 
 In the project directory, you can run:
