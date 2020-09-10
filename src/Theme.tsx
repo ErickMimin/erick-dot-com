@@ -76,6 +76,9 @@ let Theme = createMuiTheme({
 			fontFamily: 'OpenSans-SemiBold',
 			fontSize: "1rem",
 		},
+		body2: {
+			fontSize: "0.7rem",
+		},
   },
 	overrides: {
     MuiCssBaseline: {

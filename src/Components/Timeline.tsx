@@ -31,80 +31,62 @@ const Timeline: React.FC<{}> = () => {
 		},
 	}));
 
-  const classes = useStyles();
+	const items = [{
+			date: "Ago 2013 - Jul 2016",
+			icon: "graduation-cap",
+			title: "Bachillerato Técnico en Mecatrónica",
+			ubication: "CETis 12",
+		},{
+			date: "Ago 2018 - Feb 2019",
+			icon: "layer-group",
+			title: "Desarollador Front-end Junior",
+			ubication: "E-Bitware",
+		},{
+			date: "Ago 2016 - Actualidad",
+			icon: "university",
+			title: "Ingeniero en Sistemas Computacionales",
+			ubication: "Instituto Politécnico Nacional",
+		},
+	];
+
+	const classes = useStyles();
+
+	const listItems = items.map((item: any) =>(
+		<TimelineItem>
+			<TimelineOppositeContent className={classes.date}>
+				<Typography variant="body2" color="textSecondary">
+					{item.date} 
+				</Typography>
+			</TimelineOppositeContent>
+			<TimelineSeparator>
+				<TimelineDot color="primary" className={classes.icon}>
+					<i className={`fas fa-${item.icon}`}/>
+				</TimelineDot>
+				<TimelineConnector />
+			</TimelineSeparator>
+			<TimelineContent>
+				<Paper elevation={1} className={classes.paper}>
+					<Typography variant="h4" component="h2">
+						{item.title} 
+					</Typography>
+					<Typography>{item.ubication}</Typography>
+				</Paper>
+			</TimelineContent>
+		</TimelineItem>
+	));
 
 	return(
 		<>
 			<Box id="timeline" bgcolor="info.light" component="section">
 				<Container maxWidth="md">
-					<Box color="secondary.main" py={2} textAlign="center">
+					<Box color="secondary.main" pt={2} textAlign="center">
 						<Typography variant="h2">Timeline</Typography>
 					</Box>
-					<TimelineM align="alternate">
-						<TimelineItem>
-							<TimelineOppositeContent className={classes.date}>
-								<Typography variant="body2" color="textSecondary">
-									Ago 2013 - Jul 2016 
-								</Typography>
-							</TimelineOppositeContent>
-							<TimelineSeparator>
-								<TimelineDot color="primary" className={classes.icon}>
-									<i className="fas fa-graduation-cap" />
-								</TimelineDot>
-								<TimelineConnector />
-							</TimelineSeparator>
-							<TimelineContent>
-								<Paper elevation={1} className={classes.paper}>
-									<Typography variant="h4" component="h2">
-										Bachillerato T&eacute;cnico en Mecatr&oacute;nica 
-									</Typography>
-									<Typography>CETis 12</Typography>
-								</Paper>
-							</TimelineContent>
-						</TimelineItem>
-						<TimelineItem>
-							<TimelineOppositeContent className={classes.date}>
-								<Typography variant="body2" color="textSecondary">
-									Ago 2018 - Feb 2019
-								</Typography>
-							</TimelineOppositeContent>
-							<TimelineSeparator>
-								<TimelineDot color="primary" className={classes.icon}>
-									<i className="fas fa-layer-group" />
-								</TimelineDot>
-								<TimelineConnector />
-							</TimelineSeparator>
-							<TimelineContent>
-								<Paper elevation={1} className={classes.paper}>
-									<Typography variant="h4" component="h2">
-										Desarollador Front-end Junior
-									</Typography>
-									<Typography>E-Bitware</Typography>
-								</Paper>
-							</TimelineContent>
-						</TimelineItem>
-						<TimelineItem>
-							<TimelineOppositeContent className={classes.date}>
-								<Typography variant="body2" color="textSecondary">
-									Ago 2016 - Actualidad
-								</Typography>
-							</TimelineOppositeContent>
-							<TimelineSeparator>
-								<TimelineDot color="primary" className={classes.icon}>
-									<i className="fas fa-layer-group" />
-								</TimelineDot>
-								<TimelineConnector />
-							</TimelineSeparator>
-							<TimelineContent>
-								<Paper elevation={1} className={classes.paper}>
-									<Typography variant="h4" component="h2">
-										Ingeniero en Sistemas Computacionales 
-									</Typography>
-									<Typography>Instituto Polit&eacute;cnico Nacional</Typography>
-								</Paper>
-							</TimelineContent>
-						</TimelineItem>
-					</TimelineM>
+					<Box pb={1}>
+						<TimelineM align="alternate">
+							{listItems}
+						</TimelineM>
+					</Box>
 				</Container>
 			</Box>
 		</>

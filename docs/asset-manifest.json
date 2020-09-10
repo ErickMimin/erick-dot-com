@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/static/js/main.34e9eb00.chunk.js",
+    "main.js.map": "/static/js/main.34e9eb00.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.730b2969.js",
+    "runtime-main.js.map": "/static/js/runtime-main.730b2969.js.map",
+    "static/js/2.30553db5.chunk.js": "/static/js/2.30553db5.chunk.js",
+    "static/js/2.30553db5.chunk.js.map": "/static/js/2.30553db5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c51379a980bb362e50b1ad123da32370.js": "/precache-manifest.c51379a980bb362e50b1ad123da32370.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.30553db5.chunk.js.LICENSE.txt": "/static/js/2.30553db5.chunk.js.LICENSE.txt",
+    "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.1025a6e0.ttf",
+    "static/media/OpenSans-Light.ttf": "/static/media/OpenSans-Light.2d0bdc8d.ttf",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.3ed9575d.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/static/media/OpenSans-SemiBold.ba5cde21.ttf",
+    "static/media/bg.jpg": "/static/media/bg.f9118ee1.jpg",
+    "static/media/profile.jpg": "/static/media/profile.0b3a322d.jpg",
+    "static/media/web.jpg": "/static/media/web.cfc05547.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.730b2969.js",
+    "static/js/2.30553db5.chunk.js",
+    "static/js/main.34e9eb00.chunk.js"
+  ]
+}

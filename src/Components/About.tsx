@@ -12,7 +12,11 @@ const About: React.FC<{}> = () => {
 						<Typography variant="h2"> Acerca de </Typography>
 					</Box>
 					<Box textAlign="center" mb={2}>
-						<Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet felis faucibus felis placerat viverra. Vestibulum et ipsum nec nulla commodo maximus. Mauris mauris augue, gravida vel neque vel, molestie facilisis nisl.</Typography>
+						<Typography>
+							Actualmente soy estudiante del Instituto Politécnico Nacional dentro de la ingeniería en sistemas computacionales, interesado en desarrollo web, inteligencia artificial, diseño, entre otras áreas.
+						 <br/><br/>
+							Este sitio web es una manera de dar a conocer mi vida profesional al mundo, tengan por seguro que esta no es la versión final, me concentraré en la constante mejora.
+						</Typography>
 					</Box>
 				</Container>
 			</section>
