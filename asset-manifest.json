@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/erick-dot-com/static/js/main.32df5c72.chunk.js",
+    "main.js.map": "/erick-dot-com/static/js/main.32df5c72.chunk.js.map",
+    "runtime-main.js": "/erick-dot-com/static/js/runtime-main.857a0702.js",
+    "runtime-main.js.map": "/erick-dot-com/static/js/runtime-main.857a0702.js.map",
+    "static/js/2.30553db5.chunk.js": "/erick-dot-com/static/js/2.30553db5.chunk.js",
+    "static/js/2.30553db5.chunk.js.map": "/erick-dot-com/static/js/2.30553db5.chunk.js.map",
+    "index.html": "/erick-dot-com/index.html",
+    "precache-manifest.ae1aaffbfd1db9f05dde54e33e05cc62.js": "/erick-dot-com/precache-manifest.ae1aaffbfd1db9f05dde54e33e05cc62.js",
+    "service-worker.js": "/erick-dot-com/service-worker.js",
+    "static/js/2.30553db5.chunk.js.LICENSE.txt": "/erick-dot-com/static/js/2.30553db5.chunk.js.LICENSE.txt",
+    "static/media/OpenSans-Bold.ttf": "/erick-dot-com/static/media/OpenSans-Bold.1025a6e0.ttf",
+    "static/media/OpenSans-Light.ttf": "/erick-dot-com/static/media/OpenSans-Light.2d0bdc8d.ttf",
+    "static/media/OpenSans-Regular.ttf": "/erick-dot-com/static/media/OpenSans-Regular.3ed9575d.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/erick-dot-com/static/media/OpenSans-SemiBold.ba5cde21.ttf",
+    "static/media/bg.jpg": "/erick-dot-com/static/media/bg.f9118ee1.jpg",
+    "static/media/profile.jpg": "/erick-dot-com/static/media/profile.0b3a322d.jpg",
+    "static/media/web.jpg": "/erick-dot-com/static/media/web.cfc05547.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.857a0702.js",
+    "static/js/2.30553db5.chunk.js",
+    "static/js/main.32df5c72.chunk.js"
+  ]
+}
